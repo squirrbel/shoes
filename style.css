@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+.container {
+  max-width: 1162px;
+  margin: 0 auto;
+}
+header {
+  max-height: 110px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 370px;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.elements_head {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo_img {
+  width: 212px;
+  height: 64px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.link_text {
+  text-decoration: none;
+  color: black;
+}
+
+.link__text-footer {
+  color: #fff;
+}
+
+.crossyy__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  padding-bottom: 24px;
+}
+
+.crossyy__item {
+  background-color: #fff;
+  width: 371px;
+  margin-top: 24px;
+  align-self: flex-start;
+  height: auto;
+  border-radius: 12px;
+  border: 0px solid var(--text_gray, #a1a6b4);
+}
+
+.container__title {
+  margin: 0 24px;
+  margin-top: 32px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.container__text {
+  margin: 10px 24px;
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container__image {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.cross {
+  background-color: #f1f1f1;
+}
+
+.subtitle {
+  margin: 0;
+  padding-top: 25px;
+}
+
+footer {
+  padding-top: 32px;
+  padding-bottom: 22px;
+  background-color: #121723;
+}
+
+.logo2_img {
+  width: 300px;
+  height: 22px;
+}
+
+.divider {
+  margin-top: 32px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.divider__header {
+  background-color: #a1a6b4;
+}
+
+.footer__text {
+  color: var(--text_gray, #a1a6b4);
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 18px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    text-align: center;
+  }
+  .wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
